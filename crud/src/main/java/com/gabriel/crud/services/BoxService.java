@@ -40,7 +40,4 @@ public class BoxService {
         repository.delete(b);
     }
 
-
-
-
 }
