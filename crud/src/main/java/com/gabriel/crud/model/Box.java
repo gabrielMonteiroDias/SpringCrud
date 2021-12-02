@@ -30,7 +30,7 @@ public class Box implements Serializable {
     @Column(name = "delivery") //null or not
     private Date delivery;
 
-    @Column(name = "brand", length = 30, nullable = false)
+    @Column(name = "brand", length = 30, nullable = true)
     private String brand;
     //-----------------------------------------------------------
 
